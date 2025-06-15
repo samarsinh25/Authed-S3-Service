@@ -80,3 +80,26 @@ sequenceDiagram
   - Removes metadata from DB
 
 ---
+
+
+## 🛠️ Planned Add-ons & Features
+| Add-on                  | Purpose                                 |
+| ----------------------- | --------------------------------------- |
+| File versioning         | Keep multiple versions of uploads       |
+| File access logs        | See who accessed which file             |
+| Soft delete             | Mark files as deleted before cron wipes |
+| Admin dashboard (React) | Visualize file usage                    |
+| RBAC roles              | Users vs Admins                         |
+| Quota limits            | Per-user upload size caps               |
+| Notifications           | Email on success/failure                |
+
+## 🏗️ REAL-WORLD USE CASES
+User uploads ID proof for KYC — stored in S3, verified later.
+
+Internal SaaS storing team documents — cron clears unused after 7 days.
+
+Resume upload API in a job platform.
+
+Product images storage in an e-commerce backend.
+
+Email attachments processor.
